@@ -1,0 +1,21 @@
+{
+  "name": "aw-despliegue",
+  "version": "1.0.0",
+  "description": "despliegue animal crossing",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && node index.js",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build && rm -rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlo-BenjaminFaundez/aw-despliegue.git"
+  },
+  "author": "Carlo-Benjamín Faúndez Canales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlo-BenjaminFaundez/aw-despliegue/issues"
+  },
+  "homepage": "https://github.com/Carlo-BenjaminFaundez/aw-despliegue#readme"
+}
