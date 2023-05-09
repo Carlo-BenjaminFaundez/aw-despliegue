@@ -4,7 +4,7 @@
   "description": "despliegue animal crossing",
   "main": "index.js",
   "engines": {
-    "npm": "9.6.5" 
+    "npm": "9.6.6" 
   },
   "scripts": {
     "start": "cd backend && node index.js",
