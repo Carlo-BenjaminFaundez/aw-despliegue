@@ -1,0 +1,26 @@
+{
+  "name": "animalcrossingcards",
+  "version": "1.0.0",
+  "description": "An Animal Crossing Cards creator and editor page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULE-Informatica-2022-2023/aw-node-animal-crossing-cards-Carlo-BenjaminFaundez.git"
+  },
+  "author": "Carlo-Benjamin Faundez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULE-Informatica-2022-2023/aw-node-animal-crossing-cards-Carlo-BenjaminFaundez/issues"
+  },
+  "homepage": "https://github.com/ULE-Informatica-2022-2023/aw-node-animal-crossing-cards-Carlo-BenjaminFaundez#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5",
+    "package": "^1.0.1"
+  }
+}
