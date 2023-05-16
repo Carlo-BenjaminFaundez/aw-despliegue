@@ -12,7 +12,7 @@ import axios from "axios";
 
 export default function Cards(pros) {
  //nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo
-  axios.get(GetEndpoint('usuario/cards'))
+  axios.get(GetEndpoint('/api/cards'))
    //nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo//nueo
   //Parametros de la url
   const{ user } = useParams();
